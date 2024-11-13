@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Overview</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>PROJECT OVERVIEW</h1>
+        <h2>Smart Street Lighting System</h2>
+      </header>
+
+      <section class="overview">
+        <div class="abstract">
+          <h2>Abstract</h2>
+          <p>
+            The Smart Street Light System is an automated framework designed to
+            optimize road lighting and reduce power consumption by activating
+            streetlights only when vehicles or pedestrians are detected. This
+            system employs motion sensors to identify movement, and uses Arduino
+            to control LED streetlights, which automatically adjust their
+            brightness based on detected activity. By turning lights on only
+            when necessary and off when no movement is detected, the system
+            significantly conserves energy. Additionally, the integration of
+            ambient light sensors allows the system to adjust brightness
+            according to the time of day or weather conditions, further
+            enhancing energy efficiency. This innovative approach to street
+            lighting not only simplifies and automates the process but also
+            contributes to substantial energy savings and environmental
+            conservation.
+          </p>
+        </div>
+        <div class="divider"></div>
+
+        <div class="components">
+          <h2>Components</h2>
+          <ul>
+            <li><strong> 1 </strong> Arduino (microcontroller)</li>
+            <li><strong> 2 </strong> PIR Sensor (detects pedestrians)</li>
+            <li><strong> 3 </strong> Ultrasonic Sensor (detects vehicles)</li>
+            <li><strong> 4 </strong> LDR (detects ambient light)</li>
+            <li><strong> 5 </strong> LEDs</li>
+            <li>
+              <strong> 6 </strong> 5V/12V Relay modules (to control high-power
+              lights)
+            </li>
+            <li><strong> 7 </strong> Power Supply (9V/12V)</li>
+            <li>
+              <strong> 8 </strong> Jumper wires, resistors, transistors,
+              breadboards
+            </li>
+            <li><strong> 9 </strong> Waterproof casings, mounting frames</li>
+          </ul>
+        </div>
+        <div class="divider"></div>
+
+        <div class="progress">
+          <h2>Current Progress</h2>
+          <ul>
+            <li>
+              We have successfully completed the installation and configuration
+              of the sensors. Additionally, we have nearly finished developing a
+              working prototype of the system. This prototype effectively
+              demonstrates the automated control of streetlights, responding to
+              the presence of vehicles and pedestrians to optimize energy usage.
+              The progress made so far highlights the system’s potential for
+              significant energy conservation and operational efficiency.
+            </li>
+          </ul>
+          <div class="highlighted-progress">
+            <ul>
+              <li>Enter data here</li>
+              <li>Also here</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+      <h2 class="t">Team</h2>
+      <section class="team">
+        <div class="team-member">
+          <h3>Shaikh Minhaz Sulthana</h3>
+        </div>
+        <div class="team-member">
+          <h3>Yashika Gaur</h3>
+        </div>
+        <div class="team-member">
+          <h3>Harsh Kumar</h3>
+        </div>
+        <div class="team-member">
+          <h3>Bipul Kumar</h3>
+        </div>
+        <div class="team-member">
+          <h3>Shivam Doifode</h3>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+      <h2 class="t">Outputs</h2>
+      <section class="media">
+        <div class="media-gallery">
+          <div class="media-item" data-caption="Project Photo 1">
+            <img src="A.jpg" alt="Project Photo 1" />
+          </div>
+          <div class="media-item" data-caption="Project Photo 2">
+            <img src="B.jpg" alt="Project Photo 2" />
+          </div>
+          <div class="media-item" data-caption="Project Photo 3">
+            <img src="C.jpg" alt="Project Photo 3" />
+          </div>
+          <div class="media-item" data-caption="Project Video">
+            <video controls>
+              <source src="D.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: #00a4e4;
+  }
+
+  .header h1 {
+    font-size: 36px;
+    padding-bottom: 15px;
+  }
+
+  .header h2 {
+    font-size: 30px;
+    color: #2d2f35;
+  }
+
+  .section {
+    padding: 20px 0;
+  }
+
+  .overview h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #00a4e4;
+  }
+
+  .abstract,
+  .components,
+  .progress {
+    padding-bottom: 30px;
+  }
+
+  .overview p,
+  .components ul,
+  .progress ul {
+    list-style-type: none;
+    font-size: 16px;
+    color: #2d2f35;
+    line-height: 1.6;
+  }
+
+  .components ul li,
+  .progress ul li {
+    margin-bottom: 10px;
+  }
+
+  .components ul li strong,
+  .progress ul li strong {
+    color: #00a4e4;
+  }
+
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px 0;
+  }
+
+  .t {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #00a4e4;
+  }
+
+  .team-member h3 {
+    font-size: 18px;
+    color: #00a4e4;
+    text-align: center;
+  }
+
+  .media {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .media h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #00a4e4;
+  }
+
+  .media-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .media-item {
+    position: relative;
+    flex: 1 1 200px;
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .media-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .media-item img,
+  .media-item video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .media-item video,
+  .media-item img {
+    border-radius: 10px;
+  }
+
+  .media-item::after {
+    content: attr(data-caption);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .media-item:hover::after {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  console.log("Project Overview Page Loaded");
+</script>
